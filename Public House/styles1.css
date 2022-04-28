@@ -33,8 +33,6 @@ body {
     
     border: 1px solid rgba(255, 255, 255, 0.3);
     
-    /* Inside auto layout */
-    
     flex: none;
     order: 1;
     flex-grow: 0;
