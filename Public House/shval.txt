@@ -1,2 +1,39 @@
 6287487:web_token:login:auth
 {"access_token":"d3c1d2e70ee0f207d21c3cd9489fddb9d9493cb91cc1e28d54ca0f78f3737288c4b8b9db992c53028c642","expires":1651133375,"user_id":1084456,"logout_hash":"793135693173e3f4c3"}
+
+o_throughput	30499	
+one_video_rtt	79	
+video_prev_view	{"video_id":"-146612389_456241589","time":1650605876132}	
+is_keyboards_hide	{"-152828889":false}	
+recent_stickers	{"stickers":[[103,256,"https://vk.com/sticker/1-103-64","",0,"43df011a9267637d9d"],[62250,256,"https://vk.com/sticker/1-62250-64","",0,"d575e058caa0d8fe57"],[54047,256,"https://vk.com/sticker/1-54047-64","",0,"d44aed45a5d6b078e4"],[50,256,"https://vk.com/sticker/1-50-64","",0,"48dea89c575fc7f134"],[9046,256,"https://vk.com/sticker/1-9046-64","",0,"3fc7cca1ac164a5154"],[56507,256,"https://vk.com/sticker/1-56507-64","",0,"8b04398e570d358466"],[62259,256,"https://vk.com/sticker/1-62259-64","",0,"b6d15b134b774bb4e8"],[60302,256,"https://vk.com/sticker/1-60302-64","",0,"ef417bb47c27cc8650"],[60286,256,"https://vk.com/sticker/1-60286-64","",0,"eca5b8e5af15d4955f"],[62272,256,"https://vk.com/sticker/1-62272-64","",0,"f6174940fbd4d4c951"],[66387,256,"https://vk.com/sticker/1-66387-64","",0,"6d64066e1052ea2d27"],[63601,256,"https://vk.com/sticker/1-63601-64","",0,"e091f9e0a86d0536bf"],[60311,256,"https://vk.com/sticker/1-60311-64","",0,"03e27936f56219cf52"],[60281,256,"https://vk.com/sticker/1…	
+stickers_tab	0	
+ads.events	{"-1628330436":1651132596}	
+comm_mute_149449815	0	
+supportedFeatures	current_scheme:1/is_auto_schemes_supported:1/is_schemes_supported:1	
+stickers_keywords	{"time":1651132478135,"keywords":[{"words":["хаю хай","привки","хеллоу","хэллоу","хай","hello","hi","приветик","приветствую","приффки","прифф","прювет","ghbdtn","здарова","здрасьте","приветули","алоха","здрасте","хей","дороу","дароу","привет-привет","приветики","sup","бонжур","bonjour","салют","кчао","&#128075;","бззздарова","хелло","yo","y0","hey","хэй","здравствуйте","ну здрасьте","коничива","konichiwa","привяу","приветос","приветостер","ну привет","бамжур","здравствуй","howdy","нихао","мяу-привет","о привет","ваззап","ахой","ahoy","чуитс","буэнос диас","buenos dias","хей-йо","хей йо","бонжорно","здарроу","категорически приветствую","я вас категорически приветствую","ну приветик","ну здравствуй","конничива","hello there","привет","ку","прив","дарова"],"user_stickers":[62249,68338,66377,66363,65972,65771,56500,12200,4917,4323,21,10575,14409,20012,54474,63603,4639],"promoted_stickers":[71033,71554,65695,70530,64785,71323,72264,72234,65253,71703]},{"words":["йоу"],"user_stickers":[6224…	
+tmr_lvidTS	1612263958924	
+lockkk_stats_cookie_lock	false	
+6287487:web_token:login:auth	{"access_token":"e756be0096aafab31c4765f0070bcfb1191a901db220b870ad654a7d27896e6b3d6208c52fc1a2ee7ae0f","expires":1651134555,"user_id":1084456,"logout_hash":"793135693173e3f4c3"}	
+XHR_STATS_TRANSPORT_DATA_web		
+posts_extras	{"-179206366_2032":{"diff":-1,"index":0,"session_id":1606718170,"postHeight":696.9318237304688,"viewportHeight":852},"-149449815_173":{"diff":-1,"index":2,"session_id":"na","postHeight":621.9176025390625,"viewportHeight":852},"-35077504_390249":{"diff":-1,"index":2,"session_id":"na","postHeight":0,"viewportHeight":852},"-149449815_172":{"diff":-1,"index":3,"session_id":"na","postHeight":215.93748474121094,"viewportHeight":852},"-87656641_42143":{"diff":-1,"index":3,"session_id":"na","postHeight":0,"viewportHeight":852},"-149449815_171":{"diff":-1,"index":4,"session_id":"na","postHeight":567.9403076171875,"viewportHeight":852},"-77546943_39592":{"diff":-1,"index":4,"session_id":"na","postHeight":0,"viewportHeight":852},"-149449815_170":{"diff":-1,"index":5,"session_id":"na","postHeight":215.93748474121094,"viewportHeight":852},"-61912980_145132":{"diff":-1,"index":5,"session_id":"na","postHeight":0,"viewportHeight":852},"-149449815_169":{"diff":1366,"index":6,"session_id":"na","postHei…	
+im_event_queue	{"key":"196695b5287cecfb02a27effd871355dd2743482adea2e70d5b2b01bee58ed9b","ts":999942809,"queue":"messenger_onlfriends_1084456"}	
+reforged-db-1084456-fc-heads	[2000000119,489300908,388965159,627410515,63289205,5658716,-91490662]	
+posts_seen_modules	{"":"tf"}	
+tmr_reqNum	760	
+posts_seen	{}	
+_okcls_uuid	"014EF381-B521-46CE-972E-451A03EFE064"	
+SERPS_LOGS_DATA_LOCK	free	
+ntfseen	{"0":1651132493,"44":"1651115708"}	
+promoted_stickers_urls	{"time":1651132477775,"stickerUrls":{"172":"https://vk.com/sticker/1-172-64","182":"https://vk.com/sticker/1-182-64","187":"https://vk.com/sticker/1-187-64","201":"https://vk.com/sticker/1-201-64","204":"https://vk.com/sticker/1-204-64","253":"https://vk.com/sticker/1-253-64","254":"https://vk.com/sticker/1-254-64","255":"https://vk.com/sticker/1-255-64","256":"https://vk.com/sticker/1-256-64","259":"https://vk.com/sticker/1-259-64","260":"https://vk.com/sticker/1-260-64","261":"https://vk.com/sticker/1-261-64","272":"https://vk.com/sticker/1-272-64","276":"https://vk.com/sticker/1-276-64","292":"https://vk.com/sticker/1-292-64","298":"https://vk.com/sticker/1-298-64","309":"https://vk.com/sticker/1-309-64","316":"https://vk.com/sticker/1-316-64","327":"https://vk.com/sticker/1-327-64","329":"https://vk.com/sticker/1-329-64","330":"https://vk.com/sticker/1-330-64","333":"https://vk.com/sticker/1-333-64","353":"https://vk.com/sticker/1-353-64","373":"https://vk.com/sticker/1-373-64","3…	
+emoji_recent_list	{}	
+_one-stat_uuid	"DD92DF5A-CD17-419E-8C25-A6C7C562AB33"	
+videoplayer_auth_token	"NIxW1dwj6H6GmEPVqr/+0+GaObQN99hm23uUwwtpS9I="	
+im_store_1084456	{"recent_search":[489300908,2000000149,522552847,2000000138]}	
+posts_sent	{"111276352":{"2730":458647},"ad":{"a2rjms/td*74OwORe4JPWjUTwMZhcwFGvOoh3hqxlPbdn5twgShHQbY0DIDb4LlT4LF9WTB*kX89iriv6Fuw7Gw1RkJsGOhl86orZRjuTKtTlN1A9a43R1C8EfhxUIEFUmGk1I4xP5CeP5kNi/dQe8OzM6i7M48Te*HqLBhMD30qBFcFESMAyc0ao1Zl7T/24QMqzDQekjW1A3waehs7cZQEZNn4vZblsWB2X9vcIAzFsO3RttWgeKuqg/0aXS/LHLyEwuzyFzxQ7PQohHu*6Q4p717dGwv2cfMPWNgWURANK9XTaDaNpF3VV359I0URcwK5ubcsG9Utx1zOBsoBCc228l26SpDhuY/8/zyhyeW21Bl6OFd3Pn5z1shc9kqN6IrpU3g5UD9dH88X2ZCb7alnDnz*kJ4cBrpG7R0X1/Q4exu7RIGiuXCw*ILINswn9kbWoZNLWsFNGVdmAEQRkGLcQ3nj0oO9V2Tp598jxF*Ba8tXQEj0MGYHkQDi46K0pPPDDkvpU3qyA/l**J6SN50S4QfcamXKyNIrJ/jcQcIWQqS7FgJOUBrpGivDLeSDTykgh61bTsCrL62Mcf5bBIKPGv3XHgDvZ3YiuvYm8nQAKRbXip2oFd1rPm3*sVtgELLBhW/OGE4mTAgguw/FFVgSe6HkfJroo/IyLqFHlt4-":458647},"-44933700":{"8838":458647}}	
+im_send_queue_1084456	{"queues":{"2000000138":{"evs":[],"pause":false,"errored":[],"currEv":false},"2000000148":{"evs":[],"pause":false,"errored":[],"currEv":false},"2000000149":{"evs":[],"pause":false,"errored":[],"currEv":false}},"opts":{"store":true,"key":"im_send_queue_1084456","waitCommit":true}}	
+PERF_METRICS_TIMESTAMPS_WEB	{"settings":{"NAV":1651132602298},"updatedAt":1651132973601,"im":{"FCP":1651132945673,"TTFB":1651132946457,"LCP":1651132973601}}	
+last_reloaded	[]	
+videoplayer_prefs	{"position":{"-147382194_456244687":{"date":1650605876110,"pos":1.015541},"-146612389_456241589":{"date":1650605881713,"pos":5.227208}},"traffic_saving":false}	
+reforged-db-1084456-hidden-pinned-messages	{}	
+vsegs1084456_-146612389_456241589	{"segments":"1650605737|1650605741|2","segmentsSig":"57fc885107ca19138b","ts":1650605741363}	
+tmr_lvid	4641c83618cf87af5fd4ca95274a37d0
