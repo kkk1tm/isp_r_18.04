@@ -1,0 +1,27 @@
+.high-text {
+    font-size: 20px;
+}
+
+.norm-text {
+    font-size: 16px;
+}
+
+.bg-blur {
+    background: rgba(0, 0, 0, 0.219);
+    backdrop-filter: blur(50px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.bg-blur-container {
+    background: rgba(0, 0, 0, 0.219);
+    backdrop-filter: blur(50px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 12px;
+}
+
+.flex-column-gap {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
