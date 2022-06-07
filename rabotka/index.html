@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>saitik</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="body_container">
+        <header>
+            <div class="top_container">
+                <div class="header">
+                    <h1>Доска заданий</h1>
+                </div>
+                <div class="add_board">
+                    <button class='add_board_btn'>
+                        Добавить доску
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main_container">
+                <div class="tasks_container">
+                    <div class="regular_container">
+                        <div class="task_container_header">
+                            <div class = 'tasks_header'>
+                            дела
+                            </div>
+                            <div class="more_btn_d">
+                                <button class='more_btn'>...</button>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle regular_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/spike.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle regular_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/leon.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle regular_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/poko.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add_task">
+                            <button class="add_task_btn" onclick="addTask()">Добавить задачу</button>
+                        </div>
+                    </div>
+                    <div class="in_progress_container"> 
+                        <div class="task_container_header">
+                            <div class = 'tasks_header'>
+                            в процессе
+                            </div>
+                            <div class="more_btn_d">
+                                <button class='more_btn'>...</button>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle yellow_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle yellow_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle yellow_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/6.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add_task">
+                            <button class="add_task_btn" onclick="addTask()">Добавить задачу</button>
+                        </div>
+                    </div>
+                    <div class="problems_container">
+                        <div class="task_container_header">
+                            <div class = 'tasks_header'>
+                            проблемы
+                            </div>
+                            <div class="more_btn_d">
+                                <button class='more_btn'>...</button>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle red_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/7.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle red_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/8.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle red_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/9.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add_task">
+                            <button class="add_task_btn" onclick="addTask()">Добавить задачу</button>
+                        </div>
+                    </div>
+                    <div class="done_container">
+                        <div class="task_container_header">
+                            <div class = 'tasks_header'>
+                            готово
+                            </div>
+                            <div class="more_btn_d">
+                                <button class='more_btn'>...</button>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle green_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/10.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle green_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/11.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="task_container">
+                            <div class="task_header_container">
+                                <div class="task_header_left">
+                                    <div class="circle green_circle"></div>
+                                    <div class="task_header">
+                                        <h2>Заголовок</h2>
+                                    </div>
+                                </div>
+                                <div class="spike">
+                                    <img src="img/12.png" alt="">
+                                </div>
+                            </div>
+                            <div class="task_description_container">
+                                <div>Описание</div>
+                                <div class="more_btn_desc">
+                                    <button>...</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add_task">
+                            <button class="add_task_btn" onclick="addTask()">Добавить задачу</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="add_task_container hidden">
+                <div class="add_task_btns">
+                    <button class="add_task_more">
+                        <img src="img/21.png" alt="">
+                    </button>
+                    <button class="close" onclick="closeAddTask()">
+                        <img src="img/22.png" alt="">
+                    </button>
+                </div>
+                <div class="add_task_top">
+                    <div class="add_task_header">
+                        <h2>Название задачи</h2>
+                        <div class="add_task_members">
+                            <p>Участники:</p>
+                            <div class="members_avt">
+                                <img src="img/13.png" alt="">
+                                <img src="img/14.png" alt="">
+                                <img src="img/15.png" alt="">
+                                <img src='img/16.png' alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add_task_attach">
+                            <p>Вложения</p>
+                            <img src="img/pudj.png" alt="">
+                    </div>
+                </div>
+                <div class="add_task_rest_cont">
+                    <div class="add_task_desc">
+                        <p>Описание задачи</p>
+                    </div>
+                    <div class="add_task_options">
+                        <p>Действия: </p>
+                        <div class="dates task_options" onclick="addDates()">
+                            <img src="img/17.png" alt="">
+                            <p>Даты</p>
+                        </div>
+                        <div class="attachments task_options" onclick='addAttach()'>
+                            <img src="img/18.png" alt="">
+                            <p>Вложения</p>
+                        </div>
+                        <div class="tags task_options">
+                            <img src="img/19.png" alt="">
+                            <p>Метки</p>
+                        </div>
+                        <div class="members task_options">
+                            <img src="img/20.png" alt="">
+                            <p>Участники</p>
+                        </div>
+                        <div class="options_btns">
+                            <button class="delete">Удалить</button>
+                            <button class="edit">Изменить</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="add_dates_container hidden">
+            <div class="add_dates_header">
+                <div class="add_dates_header_text">
+                    Дата
+                </div>
+                <button onclick="closeDates()"><img src="img/22.png" alt=""></button>
+            </div>
+            <div class="dates_container">
+                <div class="month">Июнь
+                    <button><img src="img/21.png" alt=""></button>
+                </div>
+                <div class="year">2022
+                    <button><img src="img/21.png" alt=""></button>
+                </div>
+            </div>
+            <div class="number_container">
+                <div class="date_row_1">
+                    <div class="1 date">1</div>
+                    <div class="2 date marked">2</div>
+                    <div class="3 date">3</div>
+                    <div class="4 date">4</div>
+                    <div class="5 date">5</div>
+                    <div class="6 date">6</div>
+                    <div class="7 date">7</div>
+                    <div class="8 date">8</div>
+                    <div class="9 date">9</div>
+                    <div class="10 date">10</div>
+                </div>
+                <div class="date_row_2">
+                    <div class="11 date">11</div>
+                    <div class="12 date">12</div>
+                    <div class="13 date">13</div>
+                    <div class="14 date">14</div>
+                    <div class="15 date">15</div>
+                    <div class="16 date">16</div>
+                    <div class="17 date">17</div>
+                    <div class="18 date">18</div>
+                    <div class="19 date">19</div>   
+                    <div class="20 date">20</div>
+                </div>
+                    <div class="date_row_3">
+                    <div class="21 date">21</div>
+                    <div class="22 date">22</div>
+                    <div class="23 date">23</div>
+                    <div class="24 date">24</div>
+                    <div class="25 date">25</div>
+                    <div class="26 date">26</div>
+                    <div class="27 date">27</div>
+                    <div class="28 date">28</div>
+                    <div class="29 date">29</div>
+                    <div class="30 date">30</div>
+                </div>
+                    <div class="31 date">31</div>
+            </div>
+            <div class="save_date_btn">
+                Сохранить дату
+            </div>
+        </div>
+        <div class="attachments_window_container hidden">
+            <div class="add_dates_header">
+                <div class="add_dates_header_text">
+                    Вложения
+                </div>
+                <button onclick="closeAttach()"><img src="img/22.png" alt=""></button>
+            </div>
+            <div class="attachments_content">
+                <div class="row">
+                    <div class="img">
+                        <img src="img/23.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="img/24.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="img">
+                        <img src="img/25.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="img/26.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="img">
+                        <img src="img/27.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="img/28.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="img">
+                        <img src="img/29.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="img/30.png" alt="">
+                    </div>
+                </div>
+            </div>                                                      
+        </div>
+    <script>
+        function addTask() {
+            let addTask = document.querySelector(".add_task_container");
+            addTask.classList.remove('hidden');
+            document.querySelector('.body_container').style.opacity = 0.5;
+            let allBtns = document.querySelectorAll(".add_task_btn");
+            for(let i = 0; i < allBtns.length; i++) {
+                allBtns[i].setAttribute('disabled', true);
+            }
+        }
+
+        function closeAddTask() {
+            let addTask = document.querySelector(".add_task_container");
+            addTask.classList.add('hidden');
+            document.querySelector('.body_container').style.opacity = 1;
+            let allBtns = document.querySelectorAll(".add_task_btn");
+            for(let i = 0; i < allBtns.length; i++) {
+                allBtns[i].removeAttribute('disabled');
+            }
+        }
+        function addDates() {
+            let dates = document.querySelector('.add_dates_container');
+            dates.classList.remove('hidden');
+        }
+
+        function closeDates() {
+            document.querySelector('.add_dates_container').classList.add('hidden');
+        }
+
+        function addAttach() {
+            let attach = document.querySelector('.attachments_window_container');
+            attach.classList.remove('hidden');
+        }
+
+        function closeAttach() {
+            document.querySelector('.attachments_window_container').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>             

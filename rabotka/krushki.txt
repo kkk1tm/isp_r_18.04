@@ -1,0 +1,12 @@
+
+.yellow_circle {
+	background: #FFD79C;
+}
+
+.red_circle {
+	background: #FF8D8D;
+}
+
+.green_circle {
+	background: #96FF8D;
+}
